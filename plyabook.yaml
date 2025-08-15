@@ -1,0 +1,12 @@
+---
+- name: create users
+  hosts: all
+  tasks:
+    - name:
+      user:
+       name: "{{item.name}}"
+       comment: "{{item.full_name}}"
+       shell: bash
+      with_items:
+      { name : "ali" full_name: alisayd}
+      { name : "omar" full_name: omar sayed}
