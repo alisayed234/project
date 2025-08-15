@@ -9,4 +9,4 @@
        shell: bash
       with_items:
       { name : "ali" full_name: alisayd}
-      { name : "omar" full_name: omar sayed}
+      { name : "omar" full_name: omar ahmed}
